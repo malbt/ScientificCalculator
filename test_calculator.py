@@ -111,7 +111,8 @@ class TestStringMethods(unittest.TestCase):
     def test_getFirstNumber(self, mock_input):
         result = getFirstNumber();
         self.assertEqual(float(4.3), result)
-# test for raising error not working
+
+    # test for raising error not working
     # val = "asd"
     # @patch('builtins.input', return_value=val)
     # def test_getTwoNumbers(self, mock_input):
@@ -123,6 +124,7 @@ class TestStringMethods(unittest.TestCase):
     def test_getSecondNumber(self, mock_input):
         result = getFirstNumber();
         self.assertEqual(float(4.3), result)
+
     val = float(4.3)
     val2 = float(3.4)
 
